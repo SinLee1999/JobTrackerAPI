@@ -4,13 +4,12 @@ A backend REST API built with Spring Boot for managing job applications. This pr
 
 ## Features
 
-- Create job applications
 - View all job applications
 - View a single job application by ID
 - Update existing job applications
 - Delete job applications
 - MySQL database integration
-- Layered architecture using Controller, Service, and Repository
+- DTO-based request and response structure
 
 ## Tech Stack
 
@@ -18,9 +17,11 @@ A backend REST API built with Spring Boot for managing job applications. This pr
 - Spring Boot
 - Spring Web
 - Spring Data JPA
+- Spring Validation
+- DTO Pattern
 - MySQL
 - Maven
-
+  
 ## API Endpoints
 
 | Method | Endpoint | Description |
@@ -64,6 +65,14 @@ src/main/java
  ├── entity
  └── JobTrackerApplication
 ```
+
+## Architecture
+
+This project follows a layered architecture:
+
+Controller → Service → Repository → Database
+
+DTOs are used to separate internal entity models from external API responses.
 
 ## Future Improvements
 
