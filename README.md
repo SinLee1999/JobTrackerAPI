@@ -80,6 +80,7 @@ DTOs are used to separate internal entity models from external API responses.
 - Input validation and better error handling
 - Authentication
 - Improved request validation
+- Multi-user system design
 
 ## Author
 
