@@ -42,6 +42,10 @@ A backend REST API built with Spring Boot for managing job applications. This pr
 }
 ```
 
+## Enums
+
+ Status: APPLIED, INTERVIEW, REJECTED, OFFER
+
 ## Running the Project
 
 1. Start MySQL service
@@ -73,6 +77,11 @@ This project follows a layered architecture:
 Controller → Service → Repository → Database
 
 DTOs are used to separate internal entity models from external API responses.
+
+## Screenshot
+
+<img width="603" height="769" alt="image" src="https://github.com/user-attachments/assets/841a097a-9625-45d7-83e6-6a4b7866c4d4" />
+
 
 ## Future Improvements
 
